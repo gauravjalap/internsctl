@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <nav>
+        <img
+            src="./assets/logo.png"
+            alt="logo"
+            width=60
+        ></img>
+        <ul id="navbar">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="register.html">Register</a>
+            </li>
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <section class="container">
+        <div class="form-box-register">
+            <div class="form-value">
+                <form method="POST" id="registerForm">
+                    <h2 class="textr">Register</h2>
+    
+                    <div class="inputbox">
+                        <label for="name">
+                            <span class="material-symbols-outlined">person</span>
+                        </label>
+                        <input
+                            type="text"
+                            name="name"
+                            required
+                            autoComplete="off"
+                            placeholder="Name"
+                        ></input>
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="email">
+                            <span class="material-symbols-outlined">mail</span>
+                        </label>
+                        <input
+                            type="email"
+                            name="email"
+                            required
+                            autoComplete="off"
+                            placeholder="Email"
+                        ></input>
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="password">
+                            <span class="material-symbols-outlined">password</span>
+                        </label>
+                        <input
+                            type="password"
+                            name="password"
+                            required
+                            autoComplete="off"
+                            placeholder="Password"
+                        ></input>
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="cpassword">
+                            <span class="material-symbols-outlined">check</span>
+                        </label>
+                        <input
+                            type="password"
+                            name="cpassword"
+                            required
+                            autoComplete="off"
+                            placeholder="Confirm Password"
+                        ></input>
+                    </div>
+    
+                    <div class="click">
+                        <input type="submit" value="Register" onclick="postRegisterData(event)" />
+                    </div>
+                </form>
+    
+                <a class="already" href="login.html">
+                    I am already registered!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
