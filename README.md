@@ -7,10 +7,10 @@
   * Repo Link: https://github.com/gauravjalap/internsctl
 
 **Here are some Screenshots of the commands**
-<img src="Round1/help.png" alt="Help command" width="200">
-<img src="Round1/getinfo.png" alt="getinfo" width="200">
-<img src="Round1/cpu.png" alt="CPU Info" width="200">
-<img src="Round1/user.png" alt="User" width="200">
+<img src="Round1/help.png" alt="Help command" >
+<img src="Round1/getinfo.png" alt="getinfo" >
+<img src="Round1/cpu.png" alt="CPU Info" >
+<img src="Round1/user.png" alt="User" >
 
 # Round-2 TUSKLA Car Selling Application
 
@@ -54,7 +54,7 @@ UserSchema provide skeleton for data storing. User details and corresponding ord
     /userdata: Get user data route.
 
 **Here are some Screenshots of the Website**
-<img src="Round2/Home.png" width="200">
-<img src="Round2/Login.png" width="200">
-<img src="Round2/Register.png" width="200">
-<img src="Round2/ContactUs.png" width="200">
+<img src="Round2/Home.png" >
+<img src="Round2/Login.png" >
+<img src="Round2/Register.png" >
+<img src="Round2/ContactUs.png" >
